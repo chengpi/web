@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  /* background-color: red; */
+  /* background-image: url({bg}); */
+  /* background-image: url(${Background}); */
+
+}
+.idiv0{
+  width: 100vw;
+  /* height: 45vh; */
+  margin-bottom: 5vh;
+  /* flex: 1; */
+  display: flex;
+  /* opacity:0.6; */
+  /* flex-direction: 'column'; */
+  flex-direction: column;/*注意es6写法采用外联样式，不需要加双引号或单引号*/
+  /* justify-content:center; */
+  align-items: center;
+}
+.div0 {
+  /* background-color: "rgb(52,83,136)"; */
+  /* background-color: red; */
+  /* background-color: url("img/bg.jpg"); */
+  background-image: url('../img/bg2.jpg');
+  /* background-image: url('../img/images/bg.jpg'); */
+  background-repeat:no-repeat;
+  background-size:cover;
+  width: 100vw;
+  height: 100vh;
+  /* flex: 1; */
+  display: flex;
+  /* opacity:0.6; */
+  /* flex-direction: 'column'; */
+  flex-direction: column;/*注意es6写法采用外联样式，不需要加双引号或单引号*/
+  /* justify-content:center; */
+  align-items: center;
+}
+.div00{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 6vw;
+  font-style:italic;
+  font-family:monospace;
+  text-shadow: 0.2vw 0.4vw grey, 0.1vw 0.1vw #333;
+}
+.div01{
+  /* background-color: red; */
+  width: 100vw;
+  height: 5vh;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+}
+.input0{
+  /* font-size: 120%; */
+  font-size: 2vh;
+  height: 4.5vh;
+  /* font-family:inherit; */
+  /* font-family:"楷体"; */
+  /* font-family:monospace; */
+  font-family:"STXingkai";
+  width: 45%;
+  /* height: 4vmin; */
+
+}
+.button0{
+  /* border: 2px; */
+  background-color: silver;
+  /* height: 2vmin; */
+  font-size: 2vh;
+  font-family:monospace;
+  margin-left: 2%;
+  height: 5vh;
+  width: 12%;
+  border-radius:5% 5%;
+  /* text-shadow: 0.2vw 0.4vw grey, 0.1vw 0.1vw #333; */
+}
+
+.img{
+  width: 20vw;
+
+}
